@@ -7,7 +7,7 @@ void loop() {
   //Indicate what is the point where we are putting the output, and a High value equivalent to 5V output.
   digitalWrite(13, HIGH);
   //delay the output 1s (1000 millis)
-  delay(1000);
+  delay(3000);
   //Send a 0V to the output port
   digitalWrite(13, LOW);
   delay(1000);
